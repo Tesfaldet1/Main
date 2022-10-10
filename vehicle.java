@@ -56,10 +56,11 @@ public class vehicle {
             System.out.println("Hurray You passed!");
 
         }
-        if (_normalSpeed <= 55 && _normalSpeed >= 64){
+        else if (_normalSpeed <= 55 && _normalSpeed >= 64){
             System.out.println("you are almost there ");
         }
         else
+            //sout t v
             System.out.println("sorry you did not pass");
 
         }
